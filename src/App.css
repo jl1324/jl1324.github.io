@@ -1,0 +1,155 @@
+/* App.css */
+body, html {
+  font-family: Arial, sans-serif;
+  height: 110%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.App {
+  text-align: center;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #162519;
+  padding: 0px;
+  color: white;
+  display: flex;
+  justify-content: space-around; /* Spread icons evenly */
+  align-items: center;
+}
+
+.header-icons {
+  display: flex;
+  width: 100%; /* Take full width of the header */
+  justify-content: space-around; /* Evenly spread icons */
+}
+
+.header-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.swipe-container {
+  background-color: #123828;
+  border-radius: 10px;
+  padding: 50px;
+  color: white;
+  /* height: calc(100vh - 140px);  Adjust height to leave space for header and footer */
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swipe-card {
+  background-color: #F0F0CE;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.swipe-card h3 {
+  margin-bottom: 10px;
+}
+
+.swipe-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-details p {
+  margin: 5px 0;
+}
+
+.App-footer {
+  background-color: #162519;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.home-page {
+  background-color: #ffffff;
+  color: white;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.add-clothes-container {
+  font-family: Arial, sans-serif; /* Adjust the font as needed */
+  padding: 10px;
+}
+
+.page-title {
+  color: #333;
+  text-align: center;
+}
+
+.user-info {
+  color: #333;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.photo-upload {
+  margin-bottom: 20px;
+}
+
+.photo-button {
+  background-color: #162519;
+  color: white;
+  border: none;
+  padding: 40px 0px; 
+  border-radius: 15px;
+  width: 85%; 
+  display: block;
+  margin: auto;
+}
+
+.input-field {
+  width: 85%;
+  padding: 10px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  appearance: none; /* Removes default system styling */
+  -webkit-appearance: none; /* Specifically for iOS and Safari */
+  background-size: 12px; /* Size of the arrow */
+  cursor: pointer; /* Changes cursor to pointer type */
+}
+
+
+.publish-button {
+  background-color: #162519; 
+  color: #F0F0CE;
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.add-clothes-form {
+  display: flex;
+  flex-direction: column;
+}
